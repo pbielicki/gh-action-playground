@@ -23,6 +23,6 @@ jobs:
         run: npm run bundle
 
       - name: Run action
-        uses: typescript-action
+        uses: ./typescript-action
         with:
           milliseconds: 1000
